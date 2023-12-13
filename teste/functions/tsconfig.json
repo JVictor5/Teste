@@ -1,0 +1,55 @@
+{
+  // "extends": "@burand/functions",
+  "compilerOptions": {
+    //@burand/functions
+    "declaration": true,
+    "module": "Node16",
+    "target": "es2022",
+    "moduleResolution": "node16",
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "outDir": "lib",
+    "strict": true,
+    "isolatedModules": true,
+    "forceConsistentCasingInFileNames": true,
+    "strictPropertyInitialization": false,
+    "skipLibCheck": true,
+    "noPropertyAccessFromIndexSignature": false,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
+    "paths": {
+      "@config/*": [
+        "./src/core/config/*"
+      ],
+      "@models/*": [
+        "./src/core/models/*"
+      ],
+      "@providers/*": [
+        "./src/core/providers/*"
+      ],
+      "@repositories/*": [
+        "./src/core/repositories/*"
+      ],
+      "@utils/*": [
+        "./src/core/utils/*"
+      ],
+      "@middlewares/*": [
+        "./src/core/middlewares/*"
+      ],
+      "@enums/*": [
+        "./src/core/enums/*"
+      ],
+      "@services/*": [
+        "./src/core/services/*"
+      ],
+      "@shared/*": [
+        "./src/core/shared/*"
+      ],
+      "@interfaces/*": [
+        "./src/core/interfaces/*"
+      ]
+    }
+  }
+}
